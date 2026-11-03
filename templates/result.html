@@ -116,7 +116,7 @@
 
         <p>The AI model has analyzed the patient's laboratory values.</p>
 
-        {% if "CKD" in prediction or "Positive" in prediction %}
+        {% if "Detected" in prediction or "Positive" in prediction %}
         <div class="result-box positive">
             ⚠️ {{ prediction }}
         </div>
